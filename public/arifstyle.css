@@ -1,0 +1,124 @@
+body{
+    overflow-y: scroll;
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Inter, sans-serif;
+    background-color: black;
+}
+
+.arifbackground{
+    background-image: url("logo mopic.webp");
+    background-blend-mode: darken;
+    height: 130%;
+    filter: blur(30px);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.arifgambar {
+    border-radius: 50%;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.arifh1 {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.arifbox1 {
+    background-color: rgba(0, 0, 0, .80);
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    z-index: 2;
+    width: 100%;
+    height: 150%;
+}
+
+.arifbox2 {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 680px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.arifbox3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-weight: 700;
+    color: white;
+}
+.arifbox4 {
+    margin: auto;
+    width: 100%;
+    border: none;
+}
+.arifkotak {
+    background-color: black;
+    margin: auto;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    padding: 16px 44px;
+    width: 98%;
+    height: 56px;
+    appearance: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: width 200ms;
+}
+
+a:link, a:visited {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+a:hover, a:active{
+        width: 100%;
+        height: 58px;
+}

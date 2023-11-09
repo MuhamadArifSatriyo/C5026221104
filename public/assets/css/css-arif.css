@@ -1,0 +1,116 @@
+.courselogo{
+    height: 50px;
+    border-radius: 25%;
+}
+
+.nav-item {
+    overflow: hidden;
+  }
+
+.nav-item {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+.sticky + .content {
+    padding-top: 60px;
+  }
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.news-page{
+    position: relative;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width:100%;
+    background-color: #F6F5FC;
+    color: #645F88;
+    border-radius: 30px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsimage{
+    display: block;
+    max-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-text{
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.aboutimg{
+  height: 250px;
+  border-radius: 10px;
+  max-width: max-content;
+}
+
+.programs{
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkslategray;
+  padding-top: 50px;
+}
+
+.carouselbg{
+  background-color: lightskyblue;
+}
+
+.programs-image{
+    display: block;
+    max-height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab {
+  padding-left: 75px;
+}
+.tab-2{
+  padding-left: 35px;
+}
+.tab-3{
+  padding-left: 72px;
+}
+
+.location-img{
+  padding-left: 30px;
+  padding-top: 50px;
+  width: 280px;
+  height: 280px;
+}
+
+.footer{
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 20px;
+} 
+
+a:link, a:hover, a:visited{
+  text-decoration: none;
+  color: rgba(0, 0, 255, 0.777);
+}
+
+
+

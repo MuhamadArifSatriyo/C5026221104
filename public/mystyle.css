@@ -1,0 +1,41 @@
+body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, Helvetica, sans-serif;
+}
+
+.sembunyi{
+    display: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: orange;
+}
+
+a:visited{
+    text-decoration: none;
+    color: orange;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.profpicture{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.fotobiasa{
+    border-radius: 10px 10px;
+}
+
+.kotakfoto{
+    border: 1px solid #ddd;
+    border-radius: 10px 10px;
+    padding: 5px;
+    width: 500px;
+}
