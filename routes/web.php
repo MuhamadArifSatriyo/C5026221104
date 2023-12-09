@@ -105,3 +105,11 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/beli','App\Http\Controllers\KeranjangController@beli');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+//DB tabel tumbuhan
+Route::get('/tumbuhan','App\Http\Controllers\TumbuhanController@index');
+Route::get('/tumbuhan/tambah','App\Http\Controllers\TumbuhanController@tambah');
+Route::post('/tumbuhan/store','App\Http\Controllers\TumbuhanController@store');
+Route::get('/tumbuhan/edit/{id}','App\Http\Controllers\TumbuhanController@edit');
+Route::post('/tumbuhan/update','App\Http\Controllers\TumbuhanController@update');
+Route::get('/tumbuhan/hapus/{id}','App\Http\Controllers\TumbuhanController@hapus');
