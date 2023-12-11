@@ -5,9 +5,7 @@
 <div class="row">
 <div class="col-lg-6">
 	@foreach($kategori as $p)
-
-            Anda telah memilih Kategori
-                <div class="col-sm-6">dengan Kode :{{ $p->ID }}</div>
+            <div class="col-sm"><h2>Anda telah memilih Kategori dengan Kode : {{ $p->ID }}</div>
     </div>
 </div>
 	@endforeach
