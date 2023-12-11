@@ -113,3 +113,7 @@ Route::post('/tumbuhan/store','App\Http\Controllers\TumbuhanController@store');
 Route::get('/tumbuhan/edit/{id}','App\Http\Controllers\TumbuhanController@edit');
 Route::post('/tumbuhan/update','App\Http\Controllers\TumbuhanController@update');
 Route::get('/tumbuhan/hapus/{id}','App\Http\Controllers\TumbuhanController@hapus');
+
+Route::get('/combo','App\Http\Controllers\KategoriController@kategori');
+Route::get('/combo/request','App\Http\Controllers\KategoriController@request');
+Route::get('/hasilcombo/{id}','App\Http\Controllers\KategoriController@hasil');
